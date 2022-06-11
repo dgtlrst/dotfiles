@@ -1,0 +1,22 @@
+# SETUP
+
+[DISTRO]
+Distro:		Manjaro-i3-minimal
+WM:		xmonad
+bar:		xmobar
+menu:		rofi / dmenu / albert
+pk-mngr:	pacman / flatpak / yarn
+terminal:	probs kitty
+shell:		fish / bash
+code editor:	nvim / lunarvim / VSC / micro / emacs
+music player:	
+video player:
+network:
+spotify:	spotify-tui
+doc viewer:	zathura / mupdf(backend)
+themes:		rigel.netlify.app / blood-moon
+latex engine:	https://www.reddit.com/r/unixporn/comments/jtjol5/cinnamon_latex_workflow_in_vim/
+
+(edit and compile in Vim[appropriate plugin]) (review in doc viewer))
+latex engine setup with vimtex (https://tex.stackexchange.com/questions/501492/how-do-i-set-xelatex-as-my-default-engine)
+
