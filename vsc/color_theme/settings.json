@@ -1,0 +1,290 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Jedi",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "code-runner.runInTerminal": true,
+    "yaml.validate": false,
+    "yaml.schemas": {
+        "file:///c%3A/Users/EnduroSat/.vscode/extensions/docsmsft.docs-yaml-1.0.5/dist/toc.schema.json": "/toc\\.yml/i"
+    },
+    "workbench.colorCustomizations": {
+        // my own fork of Aramok's Crimson Black theme
+        "[Aramok's Crimson Black]": {
+            "editorCursor.foreground": "#dad6d6",
+            "terminalCursor.foreground": "#dad6d6",
+            "editorBracketMatch.background": "#0080a791",
+            "editor.selectionHighlightBackground": "#fda7a7b9",
+            "editorHint.foreground": "#ff0000",
+            "editorHint.border": "#00ff66"
+        },
+
+        "editorCursor.foreground": "#dad6d6",
+        "terminalCursor.foreground": "#dad6d6",
+        "editorBracketMatch.background": "#0080a791",
+        "editor.selectionHighlightBackground": "#fda7a7b9",
+        "editorHint.foreground": "#ff0000",
+        "editorHint.border": "#00ff66"
+    },
+    "bracketPairColorizer.colorMode": "Independent",
+    "bracket-pair-colorizer-2.colors": [
+        "Black",
+        "Orchid",
+        "LightSkyBlue"
+    ],
+    "editor.fontLigatures": true,
+    "editor.fontWeight": 541,
+    "terminal.integrated.automationShell.windows": "",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "git.ignoreMissingGitWarning": true,
+    "python.autoComplete.extraPaths": [
+    
+    ],
+    "settingsSync.ignoredSettings": [
+        "-python.defaultInterpreterPath"
+    ],
+    "code-runner.executorMap": {
+
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runhaskell",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+    "code-runner.respectShebang": false,
+    "python.analysis.extraPaths": [],
+    "debug.allowBreakpointsEverywhere": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.tabs.enabled": true,
+    "python.pythonPath": "C:\\Users\\Ognyan\\AppData\\Local\\Microsoft\\WindowsApps\\python3.9.exe",
+    "workbench.colorTheme": "Aramok's Crimson Black",
+    "terminal.integrated.profiles.windows": {
+        "C:\\WINDOWS\\System32\\cmd.exe (migrated)": {
+            "path": "C:\\WINDOWS\\System32\\cmd.exe",
+            "args": []
+        }
+    },
+    "redhat.telemetry.enabled": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.detectIndentation": false,
+    "workbench.iconTheme": "vscode-seedling-icon-theme-plus",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "kite.enableSnippets": false,
+    "kite.startKiteEngineOnStartup": false,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "cmake.generator": "Unix Makefiles",
+    "cmake.configureOnOpen": true,
+    "javascript.suggest.autoImports": false,
+    "python.analysis.autoImportCompletions": false,
+    "editor.fontFamily": "JetBrains Mono, Terminus, Fira Code, Consolas , iosevka, Menlo, Monaco, 'Courier New', monospace",
+    "Lua.telemetry.enable": true,
+    "go.toolsManagement.autoUpdate": true,
+    "xml.server.binary.trustedHashes": [
+        "6fc9837c9e0ea3000ba8b5028694139916a272e8789ec04bb6bfc1b84a1e6c4d"
+    ],
+    "editor.renderWhitespace": "all",
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "files.associations": {
+        "*.puml": "plantuml",
+        "*.css": "css",
+        "*.html": "html"
+    },
+    "npm.keybindingsChangedWarningShown": true,
+    "editor.accessibilitySupport": "off",
+    "indentRainbow.colors": [
+        "rgba(239, 71, 111,0.15)",
+        "rgba(255, 209, 102,0.15)",
+        "rgba(6, 214, 160, 0.15)",
+        "rgba(17, 138, 178,0.15)",
+        "rgba(7, 59, 76,0.15)",
+        "rgba(7, 59, 76,0.1)",
+        "rgba(7, 59, 76,0.05)",
+        "rgba(7, 59, 76,0.025)"
+    ],
+    "lldb.suppressUpdateNotifications": true,
+    "editor.inlineSuggest.enabled": true,
+    "git.openRepositoryInParentFolders": "never",
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "sonarlint.connectedMode.connections.sonarqube": [
+        {
+            "serverUrl": "http://sonar.endurosatlab.com",
+            "connectionId": "sonar-endurosatlab"
+        }
+    ],
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "C_Cpp.default.compilerPath": "c:\\ST\\STM32CubeIDE_1.12.1\\STM32CubeIDE\\plugins\\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\\tools\\bin\\arm-none-eabi-gcc.exe",
+    "cmake.showOptionsMovedNotification": false,
+    "explorer.confirmDelete": false,
+    "workbench.activityBar.location": "top",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cortex-debug.armToolchainPath": "/home/dgtlrst/st/stm32cubeide_1.12.1/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.200.202301161003/tools/bin",
+    "cortex-debug.gdbPath": "/home/dgtlrst/st/stm32cubeide_1.12.1/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.200.202301161003/tools/bin/arm-none-eabi-gdb",
+    "cSpell.diagnosticLevel": "Hint",
+    "python.defaultInterpreterPath": "C:\\taxman\\e",
+    "github.copilot.preferredAccount": "dgtlrst",
+    "black-formatter.args": [
+        "-l 130",
+        "-S"
+    ],
+    "editor.fontSize": 12,
+    "editor.cursorStyle": "block",
+    "remote.SSH.remotePlatform": {
+        "192.168.0.134": "linux"
+    },
+    "editor.tokenColorCustomizations": {
+        "[Aramok's Crimson Black]": {
+            "comments": "#0b4515",
+            "strings": "#827676",
+            "numbers": "#8ea7e2",
+            "functions": "#9ac3b4",
+            "keywords": "#a371b8",
+            "types": "#96bcae",
+            "variables": "#817cb0",
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#131313",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "variable.language",
+                    "settings": {
+                        "foreground": "#a88872",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "constant",
+                    "settings": {
+                        "foreground": "#0d6d67",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "comment.line",
+                    "settings": {
+                        "foreground": "#0b5b18",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "meta.function-call",
+                    "settings": {
+                        "foreground": "#548593",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.operator",
+                    "settings": {
+                        "foreground": "#117f57",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.assignment",
+                    "settings": {
+                        "foreground": "#117f57",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "",
+                    "settings": {
+                        "foreground": "#FF0000",
+                        "fontStyle": "bold"
+                    }
+                }
+            ]
+        },
+        "[*Light*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#000"
+                    }
+                }
+            ]
+        },
+        "[*Dark*]": {
+            "textMateRules": [
+                {
+                    "scope": "ref.matchtext",
+                    "settings": {
+                        "foreground": "#fff"
+                    }
+                }
+            ]
+        }
+    }
+}
