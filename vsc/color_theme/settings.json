@@ -6,10 +6,9 @@
     "code-runner.runInTerminal": true,
     "yaml.validate": false,
     "yaml.schemas": {
-        "file:///c%3A/Users/EnduroSat/.vscode/extensions/docsmsft.docs-yaml-1.0.5/dist/toc.schema.json": "/toc\\.yml/i"
+        "file:///c%3A/Users/Ognyan/.vscode/extensions/docsmsft.docs-yaml-1.0.5/dist/toc.schema.json": "/toc\\.yml/i"
     },
     "workbench.colorCustomizations": {
-        // my own fork of Aramok's Crimson Black theme
         "[Aramok's Crimson Black]": {
             "editorCursor.foreground": "#dad6d6",
             "terminalCursor.foreground": "#dad6d6",
@@ -18,7 +17,6 @@
             "editorHint.foreground": "#ff0000",
             "editorHint.border": "#00ff66"
         },
-
         "editorCursor.foreground": "#dad6d6",
         "terminalCursor.foreground": "#dad6d6",
         "editorBracketMatch.background": "#0080a791",
@@ -32,7 +30,7 @@
         "Orchid",
         "LightSkyBlue"
     ],
-    "editor.fontLigatures": true,
+    "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
     "editor.fontWeight": 541,
     "terminal.integrated.automationShell.windows": "",
     "workbench.editorAssociations": {
@@ -101,14 +99,32 @@
     "code-runner.respectShebang": false,
     "python.analysis.extraPaths": [],
     "debug.allowBreakpointsEverywhere": true,
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
     "terminal.integrated.tabs.enabled": true,
     "python.pythonPath": "C:\\Users\\Ognyan\\AppData\\Local\\Microsoft\\WindowsApps\\python3.9.exe",
     "workbench.colorTheme": "Aramok's Crimson Black",
     "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
         "C:\\WINDOWS\\System32\\cmd.exe (migrated)": {
             "path": "C:\\WINDOWS\\System32\\cmd.exe",
             "args": []
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
         }
     },
     "redhat.telemetry.enabled": false,
@@ -129,7 +145,7 @@
     "cmake.configureOnOpen": true,
     "javascript.suggest.autoImports": false,
     "python.analysis.autoImportCompletions": false,
-    "editor.fontFamily": "JetBrains Mono, Terminus, Fira Code, Consolas , iosevka, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'Monaspace Krypton', JetBrains Mono, Terminus, Fira Code, Consolas , iosevka, Menlo, Monaco, 'Courier New', monospace",
     "Lua.telemetry.enable": true,
     "go.toolsManagement.autoUpdate": true,
     "xml.server.binary.trustedHashes": [
@@ -196,7 +212,8 @@
     "editor.fontSize": 12,
     "editor.cursorStyle": "block",
     "remote.SSH.remotePlatform": {
-        "192.168.0.134": "linux"
+        "192.168.0.134": "linux",
+        "192.168.10.158": "linux"
     },
     "editor.tokenColorCustomizations": {
         "[Aramok's Crimson Black]": {
@@ -286,5 +303,15 @@
                 }
             ]
         }
-    }
+    },
+    "nsis.compiler.pathToMakensis": "C:\\Program Files (x86)\\NSIS\\Bin",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "remote.autoForwardPortsSource": "hybrid",
+    "STM32VSCodeExtension.projectCreator.executablePath": "c:\\Program Files\\STMicroelectronics\\STM32Cube\\STM32CubeMX\\STM32CubeMX.exe",
+    "STM32VSCodeExtension.cubeCLT.path": "c:\\ST\\STM32CubeCLT_1.17.0"
 }
